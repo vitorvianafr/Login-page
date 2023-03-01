@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+  <title>Sucesso!</title>
+</head>
+
+<body>
+        <div id="div">
+                <h1>Login</h1>
+            <form method="POST" action="/processar-formulario">
+            <label id="oi" for="login">Login</label>
+            <input type="text" name="login" id="login">
+    
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+    
+            
+            <div id="botão">
+                <button type="submit">Enviar</button>
+            </div> 
+        
+        </form>
+        </div>
+        
+</body>
+  
+<style>
+   
+   body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: #C0C0C0
+   }
+   
+   #div{
+    display: flex;
+    flex-direction: column;
+    background-color: #363636;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0px 0px 5px 5px black ;
+    border-radius: 5px;
+   }
+
+   button{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #363636;
+    font-size: 25px;
+    color: white;
+   } 
+   
+   input{
+        outline: unset;
+        background-color: #363636;
+    }   
+
+   input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 50px;
+    font-size: medium;
+    color: white;
+   }
+
+   #botão{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+   }
+
+   form{
+    display: flex;
+    flex-direction: column;
+   }
+
+   label{
+    font-size: 20px;
+    font-weight:bold;
+    color:white ;
+   }
+
+   h1{
+    font-size: 50px;
+    color: white;
+   }
+
+</style>
+  
+</html>
